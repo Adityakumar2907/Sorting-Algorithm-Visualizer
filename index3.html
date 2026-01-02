@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorting & Searching Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Sorting & Searching Visualizer</h1>
+
+<div class="controls">
+    <button onclick="generateArray()">Generate Array</button>
+
+    <button onclick="bubbleSort()">Bubble Sort</button>
+    <button onclick="selectionSort()">Selection Sort</button>
+    <button onclick="insertionSort()">Insertion Sort</button>
+
+    <input type="number" id="searchValue" placeholder="Search value">
+    <button onclick="linearSearch()">Linear Search</button>
+    <button onclick="binarySearch()">Binary Search</button>
+</div>
+
+<div id="array-container"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
